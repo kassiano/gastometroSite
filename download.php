@@ -1,4 +1,4 @@
-<?php require_once("../include/layout/header.php"); ?>            
+<?php require_once("include/layout/header.php"); ?>            
 <section id="download-page" class="main">                
     <section class="info-box">
         <h1 class="title">Download</h1>
@@ -8,4 +8,4 @@
         </div>
     </section>
 </section>
-<?php require_once("../include/layout/footer.php"); ?> 
+<?php require_once("include/layout/footer.php"); ?> 
