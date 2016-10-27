@@ -149,13 +149,16 @@ header nav .button a {
 #container .info-box {
     background-color: aliceblue;
     width: 300px;
-    display: flex;
-    justify-content: center;
+    display: flex;    
     flex-direction: column;
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 2px;
+}
+
+#contato-page .info-box {
+    height: 430px;
 }
 
 @media screen and (min-width: 550px) {
