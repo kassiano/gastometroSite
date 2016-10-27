@@ -1,4 +1,4 @@
-<?php require_once("../include/layout/header.php"); ?>
+<?php require_once("include/layout/header.php"); ?>
 <section id="banner">
     <h1 id="title">Gastometro</h1>
     <img src="images/perspective.png" />
@@ -35,4 +35,4 @@
         </div>
     </section>
 </section>
-<?php require_once("../include/layout/footer.php"); ?>            
+<?php require_once("include/layout/footer.php"); ?>            
