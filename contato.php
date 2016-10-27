@@ -22,7 +22,7 @@
                     </select>
                 </div>
                 <div class="input-box vertical_layout">
-                    <label class="input_label" for="input_nome">Email</label>
+                    <label class="input_label" for="input_nome">Mensagem</label>
                     <textarea class="input_text" required></textarea>
                 </div>
                 <div class="input-box vertical_layout">
