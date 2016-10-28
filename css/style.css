@@ -1,5 +1,5 @@
 body {
-    background-color: #E1F4F1;
+    background-color: #eaeaea;
     font-family: 'Roboto', serif, sans-serif;
     margin: 0;    
 }
@@ -15,12 +15,13 @@ ol, ul, li {
 }
 
 a {
-    color: #0d528e;
+    color: #2e2e2e;
     text-decoration: none;
 }
 
-a:hover {
-    color: #64aceb;
+a:hover, 
+a:active {
+    color: #9b9b9b;
 }
 
 #container {    
@@ -42,7 +43,7 @@ a:hover {
 /*----------------------------------------------------- HEADER*/
 
 header {
-    background-color: #33A492;
+    background-color: #2a2a2a;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,7 +51,7 @@ header {
     height: 50px;
     position: fixed;
     padding: 2px 0px;
-    border-bottom: 2px solid #69eb64;
+    border-bottom: 2px solid #9d9d9d;
 }
 
 header #logo {    
@@ -146,16 +147,18 @@ header nav .button a {
     }
 }
 
-#container .info-box {
-    background-color: aliceblue;
+#container .info-box {    
     width: 300px;
-    display: flex;
-    justify-content: center;
+    display: flex;    
     flex-direction: column;
     align-items: center;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 2px;
+}
+
+#contato-page .info-box {
+    height: 430px;
 }
 
 @media screen and (min-width: 550px) {
@@ -187,14 +190,12 @@ header nav .button a {
 #container .info-box .title {    
     width: 100%;    
     font-size: 25px;
-    border-bottom: 1px solid #33A492;
+    border-bottom: 1px solid #b1b1b1;
     text-align: left;
     margin-bottom: 5px;
 }
 
 #container .info-box .subtitle {    
-    padding: 5px;
-    border-radius: 0px 0px 5px 5px;
     color: #141414;
     font-size: 16px;
     max-width: 70%;  
@@ -209,12 +210,11 @@ header nav .button a {
 
 #container .info-box .content-wrapper {
     max-width: 80%;
-    margin-bottom: 20px;
 }
 
 @media screen and (min-width: 720px) {
 	#container .info-box .content-wrapper {
-		height: 100px;
+		height: 150px;
 	}
 }
 
@@ -223,7 +223,7 @@ header nav .button a {
 }
 
 #container .info-box .cover {
-    
+    margin-top: 10px;
 }
 
 #container .info-box .cover img {
@@ -286,17 +286,17 @@ header nav .button a {
 }
 
 .input_field {
-    background: none;
     height: 40px;
-    border: 0px;
-    border-bottom: 1px solid #00b1ff;
     font-size: 22px;
 }
 
-.input_text {
+.input_field, .input_text {
     background: none;
     border: 0px;
-    border-bottom: 1px solid #00b1ff;
+    border-bottom: 1px solid #9d9d9d;
+}
+
+.input_text {
     resize: none;
     height: 100px;
 }
@@ -317,7 +317,7 @@ header nav .button a {
 /*----------------------------------------------------- FOOTER*/
 
 #container footer {
-    background-color: #A1D7C1;
+    background-color: #dedede;
     display: flex;
     flex-direction: column;
     height: auto;
