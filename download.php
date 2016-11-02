@@ -4,7 +4,9 @@
         <h1 class="title">Download</h1>
         <h4 class="subtitle">Faça o download do Gastometro no Google Play!</h4>        
         <div class="cover">
-            <a class="image-button" href="#"><img src="images/google_play.png" /></a>
+            <a class="image-button" target="_blank" href="https://play.google.com/store/apps/details?id=br.com.gastometro.app">
+                <img src="images/google_play.png" />
+            </a>
         </div>
     </section>
 </section>
