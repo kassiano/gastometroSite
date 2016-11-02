@@ -7,7 +7,9 @@
                     </ul>
                 </div>
                 <div id="app-links">
-                    <a class="image-button" href="#"><img src="images/google_play.png" /></a>
+                    <a class="image-button" target="_blank" href="https://play.google.com/store/apps/details?id=br.com.gastometro.app">
+                        <img src="images/google_play.png" />
+                    </a>
                 </div>
                 <p id="copy">Gastometro &copy; 2016</p>
             </footer>
